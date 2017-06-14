@@ -64,7 +64,8 @@ width: 8vw;
   margin-top: 100px;
   display: grid;
   grid-template-columns: 33% 33% 33%;
-  grid-template-rows: 18vh 18vh 18vh 18vh 18vh
+  grid-template-rows: 18vh 18vh 18vh 18vh 18vh;
+  height: 100vh -100px
 }
 
 #hello{
