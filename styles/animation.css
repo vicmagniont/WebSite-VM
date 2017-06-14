@@ -1,0 +1,169 @@
+@-webkit-keyframes animationv{
+
+  0% {
+      transform: translateX(50px);
+      opacity: 0;
+      }
+      20% {
+          transform: translateX(50px);
+          opacity: 0;
+          }
+          70% {
+              transform: translateX(50px);
+              opacity: 1;
+              }
+
+  80% {
+          transform: translateX(50px);
+          }
+
+      100% {
+        transform: translateX(0px);
+      }
+}
+@keyframes animationv{
+
+  0% {
+      transform: translateX(50px);
+      opacity: 0;
+      }
+      20% {
+          transform: translateX(50px);
+          opacity: 0;
+          }
+          70% {
+              transform: translateX(50px);
+              opacity: 1;
+              }
+
+  80% {
+          transform: translateX(50px);
+          }
+
+      100% {
+        transform: translateX(0px);
+      }
+}
+
+
+
+#victor{
+-webkit-animation: animationv 4s;
+animation: animationv 4s;
+}
+
+@-webkit-keyframes animationtext{
+
+  0% { opacity: 0 }
+  90% { opacity: 0 }
+  100% { opacity: 1 }
+}
+@keyframes animationtext{
+
+  0% { opacity: 0 }
+  90% { opacity: 0 }
+  100% { opacity: 1 }
+}
+
+
+#text{
+-webkit-animation: animationtext 4s;
+animation: animationtext 4s
+}
+
+@-webkit-keyframes animationm{
+
+  0% {
+      transform: translateX(-50px);
+        opacity: 0;
+      }
+      20% {
+          transform: translateX(-50px);
+          opacity: 0;
+          }
+          70% {
+              transform: translateX(-50px);
+              opacity: 1;
+              }
+      80% {
+          transform: translateX(-50px);
+          }
+
+      100% {
+        transform: translateX(0px);
+      }
+}
+@keyframes animationm{
+
+  0% {
+      transform: translateX(-50px);
+        opacity: 0;
+      }
+      20% {
+          transform: translateX(-50px);
+          opacity: 0;
+          }
+          70% {
+              transform: translateX(-50px);
+              opacity: 1;
+              }
+      80% {
+          transform: translateX(-50px);
+          }
+
+      100% {
+        transform: translateX(0px);
+      }
+}
+
+
+
+#magniont{
+-webkit-animation: animationm 4s;
+animation: animationm 4s
+}
+
+@-webkit-keyframes animationentrer{
+  0%{
+    opacity: 0
+  }
+  90%{
+    opacity: 0
+  }
+  100%{
+    opacity: 1
+  }
+}
+@keyframes animationentrer{
+  0%{
+    opacity: 0
+  }
+  90%{
+    opacity: 0
+  }
+  100%{
+    opacity: 1
+  }
+}
+
+#enter{
+  -webkit-animation: animationentrer 5s;
+
+  animation: animationentrer 5s
+}
+
+@keyframes pulse {
+  0% {
+    color: black;
+  }
+  50% {
+    color: white;
+  }
+  100% {
+    color: black;
+  }
+}
+.html5{
+  animation: pulse 2s infinite;
+
+}

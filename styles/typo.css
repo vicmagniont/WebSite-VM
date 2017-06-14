@@ -1,0 +1,61 @@
+p {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+
+
+header{
+  font-family: 'Chivo', sans-serif;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+  color: black
+}
+
+.menuactiv{
+  font-family: 'Chivo', sans-serif;
+  text-decoration: underline;
+}
+.menuinactiv{
+  font-family: 'Chivo', sans-serif;
+}
+
+
+.title{
+  font-family: 'Chivo', sans-serif;
+  font-size: 8vw;
+  margin: none
+}
+
+.contenttext{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 25px;
+  line-height: 35px;
+  z-index: 1
+}
+
+.html5{
+  font-family: 'Chivo', sans-serif;
+  text-decoration: underline;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: blue
+}
+
+#homebody{
+  display: flex;
+  justify-content: center;
+}
+#enter{
+  font-size: 2vh;
+  color: white;
+  font-family: 'Playfair Display SC', serif;
+  top: 70%;
+  position: absolute;
+
+}
