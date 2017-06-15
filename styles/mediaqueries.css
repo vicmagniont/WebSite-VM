@@ -1,0 +1,16 @@
+@media (max-width:1020px) {
+.title{
+  font-size: 100px
+}
+.contenttext{
+  font-size: 1em;
+  line-height: 1.5em
+}
+}
+
+@media (max-width:600px) {
+#photo1{
+  grid-area: 2 / 1 / 5 / 1;
+
+}
+  }
