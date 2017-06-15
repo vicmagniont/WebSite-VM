@@ -1,4 +1,4 @@
-@media (max-width:1020px), (orientation:portrait), (max-device-width:1020px) {
+@media (max-width:1020px), (orientation:portrait), (max-device-width:1020px), (handeld) {
 .title{
   font-size: 100px
 }
@@ -6,8 +6,18 @@
   font-size: 1em;
   line-height: 1.5em
 }
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  .title{
+    font-size: 100px
+  }
+  .contenttext{
+    font-size: 1em;
+    line-height: 1.5em
+  }
 }
-@media (max-width:600px), (orientation:portrait), (max-device-width:1020px) {
+
+}
+@media (max-width:600px), (orientation:portrait), (max-device-width:1020px), (handeld) {
 #photo1{
   grid-area: 2 / 1 / 5 / 1;
 
