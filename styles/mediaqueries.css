@@ -8,7 +8,7 @@
 }
 }
 
-@media (max-width:600px) {
+@media (max-width:600px), (orientation:portrait) {
 #photo1{
   grid-area: 2 / 1 / 5 / 1;
 
