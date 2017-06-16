@@ -26,28 +26,30 @@ a:-webkit-any-link {
 
 .title{
   font-family: 'Chivo', sans-serif;
-  font-size: 8vw;
-  margin: none
+  font-size: 130px;
+  margin: none;
+  line-height: 140px
 }
-
+.html5 .title:hover{
+animation: none
+}
 .contenttext{
   font-family: 'Playfair Display SC', serif;
   font-size: 1.6vw;
   line-height: 2.2vw;
   z-index: 1;
-  padding-left: 20px
 }
 
 .html5{
   font-family: 'Chivo', sans-serif;
   text-decoration: underline;
   font-size: 0.7em;
-  padding-left: 20px
 }
 
 a:hover{
   text-decoration: underline;
-  color: blue
+  color: blue;
+  transition: 0.3s
 }
 
 #homebody{
@@ -60,5 +62,12 @@ a:hover{
   font-family: 'Playfair Display SC', serif;
   top: 70%;
   position: absolute;
+
+}
+
+.infos{
+  font-size: 2em;
+  align-self: end;
+  text-decoration: underline;
 
 }

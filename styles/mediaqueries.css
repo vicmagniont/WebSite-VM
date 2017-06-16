@@ -1,28 +1,65 @@
 @media (max-width:1020px), (orientation:portrait), (max-device-width:1020px), (handeld) {
-.title{
-  font-size: 100px
-}
+
 .contenttext{
   font-size: 1em;
   line-height: 1.5em
 }
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-  .title{
-    font-size: 100px
+@media only screen and (min-device-width : 0px) and (max-device-width : 480px) {
+  .title , #contacts{
+    font-size: 80px
   }
   .contenttext{
-    font-size: 1em;
+    font-size: 0.8em;
     line-height: 1.5em
   }
   .html5{
     display: none;
+  }
+  .headermobile{
+    display: flex;
+    justify-content: center;
+    top: 12px;
+    width: 100vw;
+    position: fixed;
+    z-index: 0
+  }
+  .side{
+    position: fixed;
+    z-index: 2;
+    display: block;
   }
 }
 
 }
 @media (max-width:600px), (orientation:portrait), (max-device-width:1020px), (handeld) {
 #photo1{
-  grid-area: 2 / 1 / 5 / 1;
+  grid-area: 4 / 1 / 7 / 3;
 
+}
+.html5{
+  display: none;
+}
+.title , #contacts{
+  font-size: 80px
+}
+
+.norm{
+  display: none;
+}
+.headermobile{
+  display: flex;
+  justify-content: center;
+  top: 12px;
+  width: 100vw;
+  position: fixed;
+  z-index: 0
+}
+.side{
+  position: fixed;
+  z-index: 2;
+  display: block;
+}
+#infos{
+  font-size: 1.5em
 }
   }
