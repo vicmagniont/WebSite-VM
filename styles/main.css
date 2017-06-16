@@ -89,7 +89,8 @@ align-self: center;
 #hello{
   grid-area: 2 / 2 / 3 / 3;
   align-self: end;
-  justify-self: start
+  line-height: 100px
+
 }
 #presentationtext{
   grid-area: 3 / 3 / 5 / 5;

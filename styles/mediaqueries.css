@@ -9,7 +9,7 @@
     font-size: 100px
   }
   #main{
-    grid-template-rows: 50px auto auto auto auto auto 100px;
+    grid-template-rows: 70px auto auto auto auto auto 100px;
 
 }
   .contenttext{
@@ -59,7 +59,7 @@
   z-index: 0
 }
 #main{
-  grid-template-rows: 50px auto auto auto auto auto 100px;
+  grid-template-rows: 70px auto auto auto auto auto 100px;
 
 }
 
