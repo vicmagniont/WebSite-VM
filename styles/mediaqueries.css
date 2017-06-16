@@ -8,6 +8,10 @@
   .title , #contacts{
     font-size: 80px
   }
+  #main{
+    grid-template-rows: 50px auto auto auto auto auto 100px;
+
+}
   .contenttext{
     font-size: 0.8em;
     line-height: 1.5em
@@ -54,6 +58,11 @@
   position: fixed;
   z-index: 0
 }
+#main{
+  grid-template-rows: 50px auto auto auto auto auto 100px;
+
+}
+
 .side{
   position: fixed;
   z-index: 2;
