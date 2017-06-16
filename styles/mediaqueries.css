@@ -6,7 +6,7 @@
 }
 @media only screen and (min-device-width : 0px) and (max-device-width : 480px) {
   .title , #contacts{
-    font-size: 80px
+    font-size: 100px
   }
   #main{
     grid-template-rows: 50px auto auto auto auto auto 100px;
@@ -44,7 +44,7 @@
   display: none;
 }
 .title , #contacts{
-  font-size: 80px
+  font-size: 100px
 }
 
 .norm{
