@@ -69,6 +69,17 @@
   display: block;
 }
 #infos{
-  font-size: 1.5em
+  font-size: 1em;
+  grid-area: 5 / 2 / 5 / 4;
+
 }
+#contacts{
+  grid-area: 2 / 2 / 2 / 5;
+  font-size: 3em;
+  line-height: normal;
+}
+#contacttext{
+  grid-area: 3 / 3 / 5 / 5;
+}
+
   }

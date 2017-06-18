@@ -113,7 +113,7 @@ align-self: center;
 #photo2{
   background-image: url("2.jpg");
   background-size: cover;
-  grid-area: 2 / 2 / 4 / 3 ;
+  grid-area: 3 / 1 / 5 / 3 ;
 
 }
 
@@ -135,5 +135,5 @@ text-align : right
 }
 
 #infos{
-  grid-area: 4 / 2 / 5 / 3
+  grid-area: 5 / 2 / 6 / 3
 }
