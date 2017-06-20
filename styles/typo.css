@@ -71,3 +71,16 @@ a:hover{
   text-decoration: underline;
 
 }
+
+#curri{
+  font-size: 5vw;
+  line-height: normal;
+}
+#cvtext{
+text-align: center;
+}
+strong{
+  font-family: 'Chivo', sans-serif;
+
+
+}

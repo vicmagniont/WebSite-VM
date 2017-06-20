@@ -32,6 +32,9 @@
     z-index: 2;
     display: block;
   }
+  #curri{
+    font-size: 100px
+  }
 }
 
 }
@@ -81,5 +84,7 @@
 #contacttext{
   grid-area: 3 / 3 / 5 / 5;
 }
-
+#curri{
+  font-size: 40px
+}
   }

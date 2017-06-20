@@ -116,6 +116,18 @@ align-self: center;
   grid-area: 3 / 1 / 5 / 3 ;
 
 }
+#photo3{
+  background-image: url("3.jpg");
+  background-size: cover;
+  grid-area: 3 / 1 / 7 / 2 ;
+
+}
+#photo4{
+  background-image: url("4.jpg");
+  background-size: cover;
+  grid-area: 2 / 5 / 7 / 6 ;
+
+}
 
 .headermobile{
   display: none;
@@ -136,4 +148,14 @@ text-align : right
 
 #infos{
   grid-area: 5 / 2 / 6 / 3
+}
+
+#curri{
+  grid-area: 2 / 2 / 3 / 5;
+  text-align: center;
+}
+
+#cvtext{
+  grid-area: 3 / 2 / end / 5;
+
 }
