@@ -1,161 +1,220 @@
-body{
+    body{
   margin: 0
 }
 
 /*index*/
 
-#homebody{
-  background-color: black;
-}
+    ::-moz-selection {
+      color: black;
+      background: yellow;
+      opacity: 1
+    }
 
-#logoanimate{
-  position: absolute;
-  top: 30vh;
-  width : 45vh
+    ::selection {
+      color: black;
+      background: yellow;
+      opacity: 1
+    }
 
-}
+    #homebody{
+      background-color: black;
+    }
+
+    #logoanimate{
+      position: absolute;
+      top: 30vh;
+      width : 45vh
+    }
 
 /*header*/
 
-.norm{
-  top: 0;
-  display: grid;
-  height: 100px;
-  width: 100vw;
-  position: fixed;
-  grid-template-columns: 10% 26vw auto 10%;
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
+    .norm{
+      top: 0;
+      display: grid;
+      height: 100px;
+      width: 100vw;
+      position: fixed;
+      grid-template-columns: 10% 26vw auto 10%;
+      grid-column-gap: 10px;
+      grid-row-gap: 10px;
+    }
 
+    #alogo{
+      grid-area: 1 / 2 / 2 / 3;
+      display: flex
+    }
 
-}
-#alogo{
-  grid-area: 1 / 2 / 2 / 3;
-  display: flex
-}
-#logo{
-  width: 100px
-}
-#menu{
-  display: flex;
-grid-column: 3 / 3;
-justify-content: space-between;
-align-self: center;
+    #logo{
+      width: 100px
+    }
 
-}
+    #menu{
+      display: flex;
+      grid-column: 3 / 3;
+      justify-content: space-between;
+      align-self: center;
+      }
 
-.side{
-  position: fixed;
-  z-index: 2;
-  display: none;
-}
-#mySidebar {
-  z-index: 100;
-  position: fixed;
-  background-color: white;
-  box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12),0px 8px 8px 0px rgba(0,0,0,0.24);}
+    .side{
+      position: fixed;
+      z-index: 2;
+      display: none;
+    }
 
-}
-/*this is the container of the logo*/
+    #mySidebar {
+      z-index: 100;
+      position: fixed;
+      background-color: white;
+      box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.12),0px 8px 8px 0px rgba(0,0,0,0.24);}
+    }
 
+    #logomobile{
+      width: 75px;
+      margin: none;
+      align-self: center;
+      jusify-self:center
+    }
 
-#logomobile{
-  width: 75px;
-  margin: none;
-  align-self: center;
-  jusify-self:center
-}
+    .menuactiv{
+      flex-grow: 1
+    }
 
+    .headermobile{
+      display: none;
+    }
 
-
-.menuactiv{
-  flex-grow: 1
-}
-
+    #logomobile{
+      width: 80px
+    }
 
 
 /*main*/
 
-#main{
+    #main{
   display: grid;
   grid-template-columns: auto 26vw 26vw 26vw auto;
   grid-template-rows: 130px auto auto auto auto auto 100px;
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   width: 100%;
-  height: 100vh
-}
-
-#hello{
-  grid-area: 2 / 2 / 3 / 3;
-  align-self: end;
-  line-height: 100px
+  height: 100vh;
 
 }
-#presentationtext{
-  grid-area: 3 / 3 / 5 / 5;
-  width: 100%
-
-}
-
-#html5{
-  grid-area: 6 / 4 / 6 / 5;
-  justify-self:right;
-  width: auto;
-}
-
-#photo1{
-  background-image: url("1.jpg");
-  background-size: cover;
-  grid-area: 5 / 2 / end / 4 ;
-
-}
-#photo2{
-  background-image: url("2.jpg");
-  background-size: cover;
-  grid-area: 3 / 1 / 5 / 3 ;
-
-}
-#photo3{
-  background-image: url("3.jpg");
-  background-size: cover;
-  grid-area: 3 / 1 / 7 / 2 ;
-
-}
-#photo4{
-  background-image: url("4.jpg");
-  background-size: cover;
-  grid-area: 2 / 5 / 7 / 6 ;
+#mainw{
+display: grid;
+grid-template-columns: auto 26vw 26vw 26vw auto;
+grid-template-rows: 130px auto auto auto auto auto auto auto auto 100px;
+grid-column-gap: 10px;
+grid-row-gap: 10px;
+width: 100%;
+height: 130vh;
 
 }
 
-.headermobile{
-  display: none;
-}
-#logomobile{
-  width: 80px
-}
+/*titles*/
 
-#contacts{
-grid-area: 2 / 3 / 4 / 5;
-font-size: 120px;
-align-self :  center;
-text-align : right
-}
-#contacttext{
-  grid-area: 4 / 4 / 6 / 5
-}
+    #curri{
+      grid-area: 2 / 2 / 3 / 5;
+      text-align: center;
+    }
 
-#infos{
-  grid-area: 5 / 2 / 6 / 3
-}
+    #hello{
+      grid-area: 2 / 2 / 3 / 3;
+      align-self: end;
+      line-height: 100px
+    }
 
-#curri{
-  grid-area: 2 / 2 / 3 / 5;
-  text-align: center;
-}
+    #contacts{
+      grid-area: 2 / 3 / 4 / 5;
+      font-size: 120px;
+      align-self :  center;
+      text-align : right
+    }
 
-#cvtext{
-  grid-area: 3 / 2 / end / 5;
+    #thisis{
+      grid-area: 2 / 2 / 3 / 4;
+      text-align: left;
+      font-size: 7em;
+      line-height: normal;
+      align-self: center;
+    }
 
-}
+    #titlework{
+      grid-area: 2 / 2 / 3 / 7
+    }
+
+
+/*textes*/
+
+
+    #presentationtext{
+      grid-area: 3 / 3 / 5 / 5;
+      width: 100%
+
+    }
+
+    #html5{
+      grid-area: 6 / 4 / 6 / 5;
+      justify-self:right;
+      width: auto;
+    }
+
+    #contacttext{
+      grid-area: 4 / 4 / 6 / 5
+    }
+
+    #infos{
+      grid-area: 5 / 2 / 6 / 3
+    }
+
+    #cvtext{
+      grid-area: 3 / 2 / end / 5;
+    }
+
+    .worktext{
+      grid-area: 3 / 2 / 5 / 4;
+    }
+
+/*work links*/
+
+    .aw{
+      background-color: black;
+      color: white;
+      opacity: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .aw:hover{
+      opacity: 0.8;
+      transition: 0.2s;
+    }
+
+    #aw1{
+      grid-area:3 / 2 / 5 / 3;
+    }
+    #aw2{
+      grid-area: 3 / 3 / 5 / 4 ;
+    }
+    #aw3{
+      grid-area: 3 / 4 / 5 / 5 ;
+    }
+    #aw4{
+      grid-area: 5 / 2 / 7 / 3 ;
+    }
+    #aw5{
+      grid-area: 5 / 3 / 7 / 4 ;
+    }
+
+   #cssslide{
+     grid-area: 2 / 7 / 2 / 2;
+     padding-bottom: 200px
+   }
+
+   #textwork{
+     grid-area: 2 / 2 / 3 / 3;
+     font-family: 'Playfair Display SC', serif;
+     font-size: 30px;
+     align-self: center;
+   }

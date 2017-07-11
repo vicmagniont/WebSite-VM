@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <link rel="icon" type="image/png" href="images/logo-01.png" />
+
+    <meta charset="UTF-8" />
+    <title>Victor Magniont</title>
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/typo.css" />
+    <link rel="stylesheet" href="styles/animation.css" />
+    <link rel="stylesheet" href="styles/mediaqueries.css" />
+    <link rel="stylesheet" href="styles/sidebar.css">
+    <link rel="stylesheet" href="styles/photos.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+
+
+        <link rel="stylesheet" href="css/style.css">
+
+
+    <meta name="description" content="Portfolio en ligne de design graphique" />
+
+
+    <link href="https://fonts.googleapis.com/css?family=Chivo:700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  </head>
+
+<body>
+
+    <div class="w3-sidebar w3-bar-block w3-dark-grey w3-animate-left" style="display:none" id="mySidebar">
+      <button class="w3-bar-item w3-button w3-large"
+      onclick="w3_close()">Fermer &times;</button>
+      <a href="hello.html" class="w3-bar-item w3-button">Présentation</a>
+      <a href="work.html" class="w3-bar-item w3-button">Projets</a>
+      <a href="contact.html" class="w3-bar-item w3-button">Contact</a>
+      <a href="cv.html" class="w3-bar-item w3-button">CV</a>
+    </div>
+    <div class=side>
+      <button class="w3-button w3-white w3-xxlarge" onclick="w3_open()">&#9776;</button>
+      <div class="w3-container">
+      </div>
+    </div>
+    <script>
+      function w3_open() {
+        document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("mySidebar").style.position = "fixed";}
+        function w3_close() {
+        document.getElementById("mySidebar").style.display = "none";}
+    </script>
+
+  <header class="norm">
+
+        <a id="alogo" href="index.html">
+          <img id="logo" src="images/logo.svg">
+        </a>
+      <div id=menu>
+        <a class="amenu" href="hello.html">
+          <p class="menuinactiv" id="presentation">Présentation</p>
+        </a>
+        <a class="amenu" href="work.html">
+          <p class="menuactiv" id="projets">Projets</p>
+        </a>
+        <a class="amenu" href="contact.html">
+          <p class="menuinactiv" id="contact">Contact</p>
+        </a>
+        <a class="amenu" href="cv.html">
+          <p class="menuinactiv" id="cv">Cv</p>
+        </a>
+      </div>
+
+  </header>
+
+  <div class="headermobile">
+    <a  href="index.html">
+      <img id="logomobile" src="images/logo.svg">
+    </a>
+
+  </div>
+
+  <div id="main">
+
+
+    <div id=cssslide>
+    <section class="slides">
+
+      <section class="slides-nav">
+        <nav class="slides-nav__nav">
+          <button class="slides-nav__prev js-prev">Prev</button>
+          <button class="slides-nav__next js-next">Next</button>
+        </nav>
+      </section>
+
+      <section class="slide is-active">
+        <div class="slide__content">
+          <figure class="slide__figure"><div class="slide__img" style="background-image: url(styles/images/illu/1.jpg)"></div></figure>
+          <header class="slide__header">
+            <h2 class="slide__title">
+              <span class="title-line"><span>Affiche</span></span>
+              <span class="title-line"><span>Théâtre</span></span>
+            </h2>
+          </header>
+        </div>
+      </section>
+
+      <section class="slide">
+        <div class="slide__content">
+          <figure class="slide__figure"><div class="slide__img" style="background-image: url(styles/images/illu/2.jpg)"></div></figure>
+          <header class="slide__header">
+            <h2 class="slide__title">
+              <span class="title-line"><span>Illustration</span></span>
+              <span class="title-line"><span>Coca Cola</span></span>
+            </h2>
+          </header>
+        </div>
+      </section>
+
+      <section class="slide">
+        <div class="slide__content">
+          <figure class="slide__figure"><div class="slide__img" style="background-image: url(styles/images/illu/3.jpg)"></div></figure>
+          <header class="slide__header">
+            <h2 class="slide__title">
+              <span class="title-line"><span>Festival</span></span>
+              <span class="title-line"><span>de Musique</span></span>
+
+            </h2>
+          </header>
+        </div>
+      </section>
+
+      <section class="slide">
+        <div class="slide__content">
+          <figure class="slide__figure"><div class="slide__img" style="background-image: url(styles/images/illu/4.jpg)"></div></figure>
+          <header class="slide__header">
+            <h2 class="slide__title">
+              <span class="title-line"><span>Illustration</span></span>
+              <span class="title-line"><span>Libre</span></span>
+
+            </h2>
+          </header>
+        </div>
+      </section>
+
+
+  </section>
+  </div>
+
+  </div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

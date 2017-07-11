@@ -35,6 +35,16 @@
   #curri{
     font-size: 100px
   }
+  .worktext{
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1em;
+    line-height: normal;
+
+  }
+  #thisis{
+    font-size:3em;
+    
+  }
 }
 
 }

@@ -5,7 +5,6 @@ p {
     -webkit-margin-end: 0px;
 }
 
-
 header{
   font-family: 'Chivo', sans-serif;
 }
@@ -23,20 +22,21 @@ a:-webkit-any-link {
   font-family: 'Chivo', sans-serif;
 }
 
-
 .title{
   font-family: 'Chivo', sans-serif;
   font-size: 130px;
   margin: none;
   line-height: 140px
 }
+
 .html5 .title:hover{
 animation: none
 }
+
 .contenttext{
   font-family: 'Playfair Display SC', serif;
   font-size: 1.6vw;
-  line-height: 2.2vw;
+  line-height: 2.5vw;
   z-index: 1;
 }
 
@@ -46,9 +46,8 @@ animation: none
   font-size: 0.7em;
 }
 
-a:hover{
-  text-decoration: underline;
-  color: blue;
+a.amenu:hover{
+  text-decoration: line-through;
   transition: 0.3s
 }
 
@@ -56,31 +55,63 @@ a:hover{
   display: flex;
   justify-content: center;
 }
+
 #enter{
   font-size: 2vh;
   color: white;
   font-family: 'Playfair Display SC', serif;
   top: 70%;
   position: absolute;
-
 }
 
 .infos{
   font-size: 3vw;
   align-self: end;
   text-decoration: underline;
-
 }
 
 #curri{
   font-size: 5vw;
   line-height: normal;
 }
+
 #cvtext{
 text-align: center;
 }
+
 strong{
   font-family: 'Chivo', sans-serif;
 
+}
+.blackw{
+  font-family: 'Playfair Display SC', serif;
+color: white;
+}
+
+#enter{
+  text-decoration: underline;
+}
+#enter:hover{
+  text-decoration: none;
+  color:yellow;
+  transition:0.4s
+}
+#titlework{
+font-size: 30px;
+text-align: left;
+}
+
+.worktext{
+  font-family: 'Playfair Display SC', serif;
+  font-size: 1.6vw;
+  line-height: 2.2vw;
+
+}
+#spantext{
+  font-size: 30px;
+  font-family: 'Playfair Display SC', serif;
+  color: black;
+background-color: rgba(255, 255, 255, 0.7);
+ font-weight: lighter;
 
 }

@@ -1,0 +1,316 @@
+/**photos of contact, hello and cv pages**/
+#photo1{
+  background-image: url("images/1.jpg");
+  background-size: cover;
+  grid-area: 5 / 2 / end / 4 ;
+}
+
+#photo2{
+  background-image: url("images/2.jpg");
+  background-size: cover;
+  grid-area: 3 / 1 / 5 / 3 ;
+}
+
+#photo3{
+  background-image: url("images/3.jpg");
+  background-size: cover;
+  grid-area: 3 / 1 / 7 / 2 ;
+}
+
+#photo4{
+  background-image: url("images/3.jpg");
+  background-size: cover;
+  grid-area: 2 / 5 / 7 / 6 ;
+}
+
+/**photos of the work page**/
+
+#photow1{
+  background-image: url("images/w1.jpg");
+  background-size: cover;
+  grid-area:3 / 2 / 5 / 3;
+  background-position: center;
+
+}
+#photow2{
+  background-image: url("images/w2.jpg");
+  background-size: cover;
+  grid-area: 3 / 3 / 5 / 4 ;
+  background-position: center;
+
+}
+#photow3{
+  background-image: url("images/w3.jpg");
+  background-size: cover;
+  grid-area: 3 / 4 / 5 / 5 ;  background-position: center;
+
+}
+#photow4{
+  background-image: url("images/w4.jpg");
+  background-size: cover;
+  grid-area: 5 / 2 / 7 / 3 ;  background-position: center;
+}
+#photow5{
+  background-image: url("images/w5.jpg");
+  background-size: cover;
+  background-position: center;  background-position: center;
+  grid-area: 5 / 3 / 7 / 4 ;
+}
+.imgwork{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/**photos of works**/
+
+
+/**Alpha Wann**/
+
+#awork1{
+  grid-area: 3 / 4 / 4 / 5;
+  background-image: url("images/alpha/1.svg");
+}
+#awork2{
+  grid-area: 4 / 4 / 5 / 5;
+  background-image: url("images/alpha/2.svg");
+
+}
+#awork3{
+  grid-area: 5 / 1 / 7 / 4;
+  background-image: url("images/alpha/3.jpg");
+background-size: cover;
+min-height: 500px
+}
+#awork4{
+  grid-area: 6 / 4 / 7 / 7;
+  background-image: url("images/alpha/4.jpg");
+  background-size: cover;
+  min-height: 250px
+}
+#awork5{
+  grid-area: 7 / 2 / 8 / 3;
+  background-image: url("images/alpha/5.jpg");
+  background-size: cover;
+  min-height: 250px
+}
+#awork6{
+  grid-area: 7 / 3 / 9 / 5;
+  background-image: url("images/alpha/6.jpg");
+  background-size: cover;
+  min-height: 500px
+}
+#awork7{
+  grid-area: 9 / 1 / 11 / 4;
+  background-image: url("images/alpha/7.jpg");
+  background-size: cover;
+  min-height: 500px
+}
+#awork8{
+  grid-area: 9 / 4 / 10 / 7;
+  background-image: url("images/alpha/8.jpg");
+  background-size: cover;
+  min-height: 250px
+}
+
+/**RUE**/
+#rwork1{
+  grid-area: 3 / 4 / 4 / 5;
+  background-image: url("images/rue/1.svg");
+  min-height: 100px
+
+}
+#rwork2{
+  grid-area: 4 / 4 / 6 / 5;
+  background-image: url("images/rue/2.jpg");
+
+}
+#rwork3{
+  grid-area: 5 / 1 / 7 / 4;
+  background-image: url("images/rue/3.jpg");
+background-size: cover;
+min-height: 500px
+}
+#rwork4{
+  grid-area: 6 / 4 / 7 / 7;
+  background-image: url("images/rue/4.jpg");
+  background-size: cover;
+  min-height: 250px
+}
+#rwork5{
+  grid-area: 7 / 2 / 8 / 3;
+  background-image: url("images/rue/5.jpg");
+  background-size: cover;
+  min-height: 250px
+}
+#rwork6{
+  grid-area: 7 / 3 / 9 / 5;
+  background-image: url("images/rue/6.jpg");
+  background-size: cover;
+  min-height: 500px
+}
+#rwork7{
+  grid-area: 9 / 1 / 11 / 4;
+  background-image: url("images/rue/7.jpg");
+  background-size: cover;
+  min-height: 500px
+}
+#rwork8{
+  grid-area: 9 / 4 / 10 / 7;
+  background-image: url("images/rue/8.jpg");
+  background-size: cover;
+  min-height: 250px
+}
+
+
+/**RUE**/
+#iwork1{
+  grid-area: 3 / 4 / 4 / 5;
+  background-image: url("images/illu/1.jpg");
+  background-size: contain;
+
+}
+#iwork2{
+  grid-area: 4 / 4 / 5 / 5;
+  background-image: url("images/illu/2.jpg");
+  background-size: contain;
+
+
+}
+#iwork3{
+  grid-area: 5 / 1 / 7 / 4;
+  background-image: url("images/illu/3.jpg");
+background-size: contain;
+min-height: 500px
+}
+#iwork4{
+  grid-area: 6 / 4 / 7 / 7;
+  background-image: url("images/illu/4.jpg");
+  background-size: contain;
+  min-height: 500px
+}
+#iwork5{
+  grid-area: 7 / 2 / 8 / 3;
+  background-image: url("images/illu/5.jpg");
+  background-size: contain;
+  min-height: 500px
+}
+#iwork6{
+  grid-area: 7 / 3 / 9 / 5;
+  background-image: url("images/illu/6.jpg");
+  background-size: contain;
+  min-height: 500px
+}
+#iwork7{
+  grid-area: 9 / 1 / 11 / 4;
+  background-image: url("images/illu/7.jpg");
+  background-size: cover;
+  min-height: 500px
+}
+#iwork8{
+  grid-area: 9 / 4 / 10 / 7;
+  background-image: url("images/illu/8.jpg");
+  background-size: cover;
+  min-height: 250px
+}
+
+#pwork1{
+  grid-area: 3 / 4 / 4 / 5;
+  background-image: url("images/panam/1.jpg");
+  background-size: cover;
+  min-height: 100px
+
+}
+#pwork2{
+  grid-area: 5 / 4 / 6 / 5;
+  background-image: url("images/panam/2.jpg");
+  background-size: cover;
+
+}
+#pwork3{
+  grid-area: 5 / 1 / 7 / 4;
+  background-image: url("images/panam/3.jpg");
+background-size: cover;
+min-height: 500px
+}
+#pwork4{
+  grid-area: 6 / 4 / 7 / 7;
+  background-image: url("images/panam/4.jpg");
+  background-size: cover;
+  min-height: 250px
+}
+#pwork5{
+  grid-area: 7 / 2 / 8 / 3;
+  background-image: url("images/panam/5.jpg");
+  background-size: cover;
+  min-height: 250px
+}
+#pwork6{
+  grid-area: 7 / 3 / 9 / 5;
+  background-image: url("images/panam/6.jpg");
+  background-size: cover;
+  min-height: 500px
+}
+#pwork7{
+  grid-area: 9 / 1 / 11 / 4;
+  background-image: url("images/panam/7.jpg");
+  background-size: cover;
+  min-height: 500px
+}
+#pwork8{
+  grid-area: 9 / 4 / 10 / 7;
+  background-image: url("images/panam/8.jpg");
+  background-size: cover;
+  min-height: 400px
+}
+
+
+#cwork1{
+  grid-area: 3 / 4 / 4 / 5;
+  background-image: url("images/citta/1.svg");
+  background-size: contain;
+  min-height: 100px
+
+}
+#cwork2{
+  grid-area: 5 / 4 / 6 / 5;
+  background-image: url("images/citta/2.svg");
+  background-size: contain;
+  background-position: center;
+
+}
+#cwork3{
+  grid-area: 5 / 1 / 7 / 4;
+  background-image: url("images/citta/3.svg");
+background-size: contain;
+min-height: 500px
+}
+#cwork4{
+  grid-area: 6 / 4 / 7 / 7;
+  background-image: url("images/citta/4.jpg");
+  background-size: cover;
+  min-height: 250px
+}
+#cwork5{
+  grid-area: 7 / 2 / 8 / 3;
+  background-image: url("images/citta/5.jpg");
+  background-size: cover;
+  min-height: 250px
+}
+#cwork6{
+  grid-area: 7 / 3 / 9 / 5;
+  background-image: url("images/citta/6.jpg");
+  background-size: cover;
+  min-height: 500px
+}
+#cwork7{
+  grid-area: 9 / 2 / 10 / 3;
+  background-image: url("images/citta/7.jpg");
+  background-size: cover;
+  min-height: 300px
+}
+#cwork8{
+  grid-area: 9 / 4 / 10 / 7;
+  background-image: url("images/citta/8.jpg");
+  background-size: cover;
+  min-height: 300px
+}
